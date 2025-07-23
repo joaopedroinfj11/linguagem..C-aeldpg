@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
     int x;
-    int y=2;
+    const int y=2;
     printf("informe um numero");
     scanf("%d",&x);
   //  printf("informe um numero");
    // scanf("%d",&y);
-    if (x%y=0)
+    if (x%y==0)
     {
        printf("numero par");  
     }
