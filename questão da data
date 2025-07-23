@@ -13,6 +13,6 @@ int main() {
     scanf("%d", &d);
 
     printf("Data: %02d/%02d/%04d\n", d, m, a);
-printf("Data ivertida : %02d/%02d/%04d\n", a,m ,d );
+printf("Data ivertida : %d/%d/%d\n", a,m ,d );
     return 0;
 }
