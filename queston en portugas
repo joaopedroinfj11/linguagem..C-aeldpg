@@ -1,0 +1,34 @@
+programa {
+  funcao inicio() {
+    inteiro opt, v, c
+
+    escreva("1 - Soma\n")
+    escreva("2 - Produto\n")
+    escreva("3 - Divisão\n")
+    escreva("4 - Subtração\n")
+    escreva("Escolha uma opção: ")
+    leia(opt)
+
+    escreva("Digite o primeiro valor: ")
+    leia(v)
+    escreva("Digite o segundo valor: ")
+    leia(c)
+
+    escolha(opt) {
+      caso 1:
+        escreva("Soma: ", v + c, "\n")
+      pare
+      caso 2:
+        escreva("Produto: ", v * c, "\n")
+      pare
+      caso 3:
+        escreva("Divisão: ", v / c, "\n")
+      pare
+      caso 4:
+        escreva("Subtração: ", v - c, "\n")
+      pare
+      caso contrario:
+        escreva("PODE NÃO\n")
+    }
+  }
+}
