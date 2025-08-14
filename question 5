@@ -1,0 +1,33 @@
+#include <stdio.h>
+int valor;
+int main(){
+printf("informe um valor: ");
+scanf("%d", &valor);
+if(valor%2==0 != valor%3==0){
+printf("é divisível por 2");
+}
+if(valor%3==0 != valor%2==0){
+printf("é divisível por 2");
+}
+
+else if(valor%3==0 && valor%2==0){
+printf("não pode man");
+}
+else{}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
